@@ -9,7 +9,7 @@ docker build -f docker/Dockerfile .  -t <projectname>/<imagename>:<tag>
 For instance:
 
 ```
-docker build -f docker/Dockerfile . -t guidoski/myexperiment:py3
+docker build -f docker/Dockerfile . -t guidoski/dockertest:tf2-pybullet
 ```
 
 
