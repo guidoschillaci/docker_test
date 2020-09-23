@@ -20,4 +20,4 @@ sudo groupadd docker
 sudo usermod -aG docker ${USER}
 
 echo "Finished installing docker. Logging out..."
-logout
+pkill -KILL -u ${USER}
