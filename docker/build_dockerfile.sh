@@ -1,0 +1,1 @@
+docker build -f Dockerfile . -t guidoski/dockertest:tf2-pybullet
