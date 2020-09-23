@@ -4,7 +4,7 @@ xhost - 127.0.0.1
 docker run -it  --rm \
   --env DISPLAY=$DISPLAY:0 \
   --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" \
-  --volume="/Volumes/data/code/:/code:rw" \
+  --volume="~/docker_test/:/docker_test:rw" \
   -w /code \
   guidoski/dockertest:tf2-pybullet /bin/bash
 
