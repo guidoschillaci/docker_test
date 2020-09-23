@@ -1,1 +1,1 @@
-docker build -f Dockerfile . -t guidoski/dockertest:tf2-pybullet
+docker build -f docker/Dockerfile . -t guidoski/dockertest:tf2-pybullet
