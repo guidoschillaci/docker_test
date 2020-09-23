@@ -5,7 +5,7 @@ docker run -it  --rm \
   --env DISPLAY=$DISPLAY:0 \
   --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" \
   --volume="/home/cloudsigma/docker_test/:/docker_test:rw" \
-  -w /code \
+  -w /docker_test \
   guidoski/dockertest:tf2-pybullet /bin/bash
 
 #xhost -local:root
